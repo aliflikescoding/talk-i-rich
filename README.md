@@ -4,7 +4,7 @@
 
 ## Output
 
-Visit [The Live Page](aliflikescoding.github.io/talk-i-rich/) to view the details
+Visit [The Live Page](https://aliflikescoding.github.io/talk-i-rich/) to view the details
 
 ## Description
 
