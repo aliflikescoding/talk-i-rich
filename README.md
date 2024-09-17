@@ -27,6 +27,6 @@ something to go live in the html in
 ### 🔗 Cloning the repository
 
 ```shell
-git clone https://github.com/aliflikescoding/react-blood-bank.git
+git clone https://github.com/aliflikescoding/talk-i-rich.git
 ```
 
