@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+     /* imoprt font */
+     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    /* css reset */
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+    }
+
+    .container {
+      max-width: 1160px;
+      margin: 0 auto;
+    }
+
+    .header {
+      padding: 15px 0;
+    }
+
+    .navbar {
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar-name {
+      font-weight: 500;
+      color: #234389;
+      font-size: 35px;
+    }
+
+    .name-bolder {
+      font-weight: 800;
+    }
+
+    .navlink {
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 400;
+      color: #9d9d9d;
+      margin-left: 25px;
+    }
+
+    .hero {
+      padding: 25vh 0;
+    }
+
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .hero-title {
+      font-weight: 700;
+      font-size: 50px;
+      max-width: 500px;
+    }
+
+    .hero-paragraph {
+      font-weight: 400;
+      font-size: 25px;
+      opacity: 50%;
+      max-width: 750px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+
+    .hero-image {
+      margin-left: 15px;
+    }
+
+    .button {
+      font-size: 25px;
+      padding: 10px 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .button-primary {
+      background-color: #6f85bf;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <h1 class="navbar-name"><span class="name-bolder">Bahir</span> Ananda Wibowo</h1>
+        <div class="navlinks">
+          <a class="navlink" href="">Home</a>
+          <a class="navlink" href="">About Me</a>
+          <a class="navlink" href="">Skill</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div>
+          <h1 class="hero-title">Hello I'm a Full Stack Developer</h1>
+          <p class="hero-paragraph">I'm an undergraduate student at Diopnegero University, who has an interest in programming.</p>
+          <button class="button button-primary">Hire Me</button>
+        </div>
+        <div class="hero-image">
+          <img src="./I-rich.png" alt="hero image">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
