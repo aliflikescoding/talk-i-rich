@@ -24,5 +24,9 @@ In this project we used vast amount of modern technologies such as:
 
 something to go live in the html in
 
+### 🔗 Cloning the repository
 
+```shell
+git clone https://github.com/aliflikescoding/react-blood-bank.git
+```
 
